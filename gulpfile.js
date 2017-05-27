@@ -113,7 +113,7 @@ gulp.task('watch', ['browsersync', 'stylus', 'scripts'], function() {
 
 // Очистка папки сборки
 gulp.task('clean', function() {
-    return del.sync('prodact');
+    return del.sync('product');
 });
 
 // Оптимизация изображений
